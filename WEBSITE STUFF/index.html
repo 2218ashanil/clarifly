@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>clariFLY</title>
+         <link rel="stylesheet" type="text/css" media="all" href="index.css"> <!-- Connects a style sheet to code-->
+    </head>
+   
+    <body> <!-- all real code goes in body-->
+        <div class = "userinput">  <!-- a div is just a grouping, class is just a group name for CSS styling-->
+            <form action ="signin" method = "post"> <!-- action is what page its going to next-->
+                Username : <input type = "text" name="username"> <br> <!-- "username is just text, input type is an input (can be button/text/etc), name is variable name-->
+                Password : <input type = "password" name="password"><br>
+                <input class = "button" type ="submit" >
+            </form>
+            <button class = "button" onclick="window.location='createAccount.jsp'">Create Account</button> <!-- button to go to create account page-->
+        </div>
+    </body>
+</html>

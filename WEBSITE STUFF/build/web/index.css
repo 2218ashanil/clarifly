@@ -1,0 +1,68 @@
+body {
+    background-image: url('city.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.formholder {
+    color: gray;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:20em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 3px solid #ccc;
+    background-color: white;
+    transition: all 0.4s;
+}
+.formholder:hover{
+    transition: all 0.4s;
+    border-color: aquamarine;
+    
+}
+
+.form{
+     padding-top: 10%;
+    text-align: center;
+    
+}
+
+
+
+.button {
+  color: gray;
+    border: 1px solid white;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    min-width: 200px;
+    transition: all 0.4s;
+}
+.button:hover{
+    border-color: aquamarine;
+    transition: all 0.4s;
+    opacity: .8;
+    transform: scale(1.1);   
+   
+}
+
+.textbox{
+    margin-bottom: 10px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    height: 50px;
+    width: 200px;
+     
+}
+#fix{
+    margin-left: 3px;
+}

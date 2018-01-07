@@ -1,0 +1,151 @@
+body {
+    background-image: url('city.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+
+
+header{
+background-color: aliceblue;
+border: 1px solid #ccc;
+margin:0;
+padding:0;
+width: 100%;
+height: 90px;
+opacity: .8;
+}
+
+
+#logo{
+display: inline-block;
+padding-left: 20px;
+max-height: 100px;
+color: gray;
+
+}
+
+nav{
+    display:inline;
+    float:right;
+    margin-right: 30px;
+    
+}
+
+nav ul{
+    list-style:none;
+    
+}
+
+
+nav ul li{
+    display:inline-block;
+    margin-right: 10px;
+    text-transform: uppercase;
+   
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.button {
+  color: gray;
+    border: 1px solid white;
+    padding: 20px 20px;
+    margin-left: 00px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    min-width: 200px;
+    transition: all 0.4s;
+}
+.button:hover{
+    border-color: aquamarine;
+    transition: all 0.4s;
+    opacity: .8;
+    transform: scale(1.1);   
+   
+}
+.formholder {
+    color: gray;
+    position:fixed;
+    top: 40%;
+    left: 50%;
+    width:30em;
+    min-height: 30em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 3px solid #ccc;
+    background-color: white;
+    transition: all 0.4s;
+}
+.formholder:hover{
+    transition: all 0.4s;
+    border-color: aquamarine;
+    
+    
+}
+
+.form{
+     padding-top: 5%;
+     
+}
+
+label{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+}
+
+
+.button {
+  color: gray;
+    border: 1px solid white;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    min-width: 200px;
+    transition: all 0.4s;
+}
+.button:hover{
+    border-color: aquamarine;
+    transition: all 0.4s;
+    opacity: .8;
+    transform: scale(1.1);   
+   
+}
+
+.textbox{
+    margin-bottom: 10px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    height: 20px;
+    width: 250px;
+     
+}
+#fix{
+    margin-left: 3px;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 5, 2017, 1:35:21 PM
+    Author     : anil
+*/
+

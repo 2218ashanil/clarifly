@@ -1,0 +1,20 @@
+SMAP
+emp_005fmailing_jsp.java
+JSP
+*S JSP
+*F
++ 0 emp_mailing.jsp
+emp_mailing.jsp
+*L
+5,16:54
+21,5:15
+25,15:70
+40,12:86
+51,14:98
+65:112,3
+66:115
+67,7:116,3
+74:137
+75:138,3
+76,5:141
+*E

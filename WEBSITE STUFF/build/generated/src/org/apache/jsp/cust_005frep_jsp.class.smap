@@ -1,0 +1,14 @@
+SMAP
+cust_005frep_jsp.java
+JSP
+*S JSP
+*F
++ 0 cust_rep.jsp
+cust_rep.jsp
+*L
+5,16:53
+21,4:15
+24,15:69
+39,8:85
+46,3:93
+*E
